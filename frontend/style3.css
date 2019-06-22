@@ -1,8 +1,5 @@
-
-body{
-   background:url("base.jpg");
-}
-
-p{
-	color: red;
+.box1{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to bottom left #6C63FF,#333333);
 }
