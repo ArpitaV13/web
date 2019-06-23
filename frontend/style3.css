@@ -1,5 +1,60 @@
+html,body{
+	margin: 0;
+    top: 0;
+    left: 0;
+}
 .box1{
 	width: 100vw;
-	height: 100vh;
-	background: linear-gradient(to bottom left #6C63FF,#333333);
+	height: 60vh;
+	background: linear-gradient(to bottom left, #6C63FF,#E14FBF);
+	clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 30%, 71% 42%, 29% 36%, 0 56%, 0 0);
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 900px;
+	
+}
+li{
+	font-style: Arca Majora 3;
+	float: left;
+	color: #ffffff;
+	padding: 10px;
+}
+
+a{
+	color: #ffffff;
+	padding: 8px;
+	text-align:left;
+}
+a:hover{
+color: coral;
+}
+.box3{
+	padding-left: 1000px;
+	width: 20vw;
+}
+.box3 p{
+    word-spacing: 20px;
+	padding: 10px;
+	transform: rotate(90deg);
+	font-size: 50px;
+	color: #B399DD;
+	font-family: Arca Majora 3;
+
+}
+.box4{
+	padding-top: 60px;
+	padding-left: 930px;
+	max-width: 50px;
+	max-height: 50px;
+}
+.box4 img{
+	max-width:150px;
+	max-height:150px;
+	float: left;
+}
+.box5{
+	padding-left: 100px;
+	
 }
