@@ -4,10 +4,10 @@ html,body{
     left: 0;
 }
 .box1{
-	width: 100vw;
-	height: 60vh;
+	max-width: auto;
+	height: 150vh;
 	background: linear-gradient(to bottom left, #6C63FF,#E14FBF);
-	clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 30%, 71% 42%, 29% 36%, 0 56%, 0 0);
+	
 }
 
 ul{
@@ -16,7 +16,7 @@ ul{
 	
 }
 li{
-	font-style: Arca Majora 3;
+	font-family: Arca Majora 3;
 	float: left;
 	color: #ffffff;
 	padding: 10px;
@@ -30,31 +30,31 @@ a{
 a:hover{
 color: coral;
 }
-.box3{
-	padding-left: 1000px;
-	width: 20vw;
-}
-.box3 p{
-    word-spacing: 20px;
-	padding: 10px;
-	transform: rotate(90deg);
-	font-size: 50px;
-	color: #B399DD;
-	font-family: Arca Majora 3;
+.box2 img{
+	float: right;
+	box-sizing:content-box;
+	padding: 0;
+	z-index: 1;
 
 }
-.box4{
-	padding-top: 60px;
-	padding-left: 930px;
-	max-width: 50px;
-	max-height: 50px;
+.box2 p{
+	height: auto;
+	width: 200px;
+	color: #ffffff;
+	padding: 100px;
+	font-size: 20px;
+	font-family: Arca Majora;
+	z-index: 2;
 }
-.box4 img{
-	max-width:150px;
-	max-height:150px;
-	float: left;
+
+.box3 h3{
+	text-align: center;
+    font-family: Arca Majora 3;
+	color: blue;
+	position:relative;
 }
-.box5{
-	padding-left: 100px;
+.box3 img{
+	position: relative;
+	position: top;
 	
-}
+	}
