@@ -32,7 +32,7 @@ body{
  
 ul{
 	list-style-type: none;
-	padding-left: 70%;
+	padding-left: 60%;
 
 }
 	
@@ -73,7 +73,7 @@ a:active{
 	
 }
 .box3 h6{
-      font-size: 5em;
+      font-size: 5.5em;
       transform: rotate(90deg);
       position:relative;
       top:100vh;
@@ -177,7 +177,7 @@ a:active{
 	color: blue;
 	padding-left: 10vw;
 	position: absolute;
-	top: 230vh;
+	top: 250vh;
 	left:2vw; 
 	font-size: 3em;
 	text-decoration: underline;
@@ -188,7 +188,7 @@ a:active{
 	height: 35vh;
 	width: 30vw;
 	position:absolute;
-	top:238vh;
+	top:262vh;
 	left: 50vw;
 	
 }
@@ -198,7 +198,7 @@ a:active{
 	position: absolute;
 	padding-left: 10vw;
 	padding-top: 2vw;
-	top:240vh;
+	top:260vh;
 	left: 2vw;
 	color: blue;
 	text-align: left;
@@ -211,7 +211,7 @@ a:active{
 	
 	
 	position: absolute;
-	top:275vh;
+	top:315vh;
 	left: 68vw;
 	font-size: 3em;
 	text-decoration: underline;
@@ -223,7 +223,7 @@ a:active{
 	height:35vh;
 	width: 30vw;
 	position: absolute;
-	top: 290vh;
+	top: 330vh;
 	
     
 }
@@ -234,7 +234,7 @@ a:active{
 	position: absolute;
 	left: 65vw;
 	
-	top: 287vh;
+	top: 328vh;
 	color: blue;
 	text-align: right;
 	font-family: 'truenoRegular';
@@ -242,16 +242,16 @@ a:active{
 }
 .box8{
 	position: relative;
-	top:150vh;
+	top:185vh;
 	width:100vw;
-	height: 70vh;
+	height: 50vh;
 	background: linear-gradient(to bottom left, #6C63FF,#E14FBF);
 	
 	
 }
 .footer{
 	position: relative;
-	top: 120vh;
+	top: 160vh;
 	left:60vw;
 	padding: 5vw;
 }
@@ -272,7 +272,7 @@ a:active{
 .box9
 	img{
 	position: absolute;
-	top:370vh;
+	top:400vh;
 	left: 5vw;
 	padding: 1vw;
 	width: 12vw;
@@ -281,7 +281,7 @@ a:active{
 
 
 .image i{
-	color:#333333;
+	color:#ffffff;
 	font-size: 2em;
 	padding: 0.5vh;
 	
@@ -300,9 +300,21 @@ i:hover{
 }
 .image{
 	position: relative;
-	top: 80vh;
+	top: 120vh;
 	left: 95vw;
 	width: 1vw;
 	height: 4vh;
 
+}
+.box10 button{
+ border-radius: 8px;
+    background: linear-gradient(to bottom left, #6C63FF,#E14FBF);
+    width: 7vw;
+    height: 2vw;
+    border:2px,solid white;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 82vh;
+    left: 5vw;
 }
